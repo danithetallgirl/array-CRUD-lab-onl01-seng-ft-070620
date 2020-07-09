@@ -15,6 +15,10 @@ def add_element_to_start_of_array(array, element)
   create_an_array.unshift("wow")
 end
 
+def array
+  ["I", "am", "really", "learning"]
+end
+
 def remove_element_from_end_of_array(array)
   
 end
