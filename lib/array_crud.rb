@@ -16,7 +16,7 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  create_an_array.delete()
+  create_an_array.delete("arrays!")
 end
 
 def remove_element_from_start_of_array(array)
