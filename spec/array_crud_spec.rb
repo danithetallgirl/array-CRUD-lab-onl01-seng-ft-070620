@@ -23,7 +23,7 @@ end
 
 describe "add_element_to_start_of_array" do 
   it "takes arguments of an array and an element and adds that element to the start of the array" do 
-    array = ["I", "am", "really", "learning"]
+    array = ["I", "am", "really", "learning", "arrays!"]
     element = "wow"
     expect(add_element_to_start_of_array(array, element).first).to eq("wow")
   end
@@ -31,7 +31,7 @@ end
 
 describe "remove_element_from_end_of_array" do 
   it "takes in an argument of an array and removes the last element in the array" do 
-    array = ["I", "am", "really", "learning", "arrays!"]
+    array = ["wow", "I", "am", "really", "learning", "arrays!"]
     expect(remove_element_from_end_of_array(array)).to eq("arrays!")
   end
 end
