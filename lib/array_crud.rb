@@ -4,7 +4,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  ["I", "am", "really", "learning"]
+  [I", "am", "really", "learning"]
 end
 
 def add_element_to_end_of_array(array, element)
@@ -22,7 +22,7 @@ end
 def remove_element_from_start_of_array(array)
   create_an_array.shift
 end
-binding.pry
+
 def retrieve_element_from_index(array, index_number)
   create_an_array[1]
 end
